@@ -26,9 +26,9 @@ SUBSYSTEM_DEF(cityevents)
 	InitializeEvents()
 	if(!can_fire)
 		return
-	addtimer(CALLBACK(src, .proc/Event), 15 MINUTES)	//Start doing events in 15 minutes
-	addtimer(CALLBACK(src, .proc/Distort), 20 MINUTES)		//Distortions start in 20
-	addtimer(CALLBACK(src, .proc/Daynight), 10 SECONDS)
+	addtimer(CALLBACK(src, .proc/Event), 30 MINUTES)	//Start doing events in 15 minutes
+	addtimer(CALLBACK(src, .proc/Distort), 60 MINUTES)		//Distortions start in 20
+	addtimer(CALLBACK(src, .proc/Daynight), 2 MINUTES)
 
 ///Ran on initialize, slap these puppies in a new list.
 /datum/controller/subsystem/cityevents/proc/InitializeLandmarks()
