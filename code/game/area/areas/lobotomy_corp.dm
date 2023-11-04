@@ -295,38 +295,6 @@
 	name = "Backstreets Room"
 	icon_state = "hallA"
 
-//Nest areas
-
-/area/city/nest_checkpoint
-	name = "Nest checkpoint"
-
-/area/city/nest_house
-	name = "Nest Housing"
-
-/area/city/nest_shop
-	name = "Nest Services"
-	icon_state = "hallA"
-
-/area/city/nest_fixers
-	name = "Nest Fixer Office"
-
-/area/city/nest_associations
-	name = "Nest Association Room"
-
-/area/city/nest
-	name = "Nest Streets"
-	icon_state = "hallA"
-	requires_power = FALSE
-	has_gravity = STANDARD_GRAVITY
-	sound_environment = SOUND_AREA_STANDARD_STATION
-	dynamic_lighting = DYNAMIC_LIGHTING_FORCED
-
-/area/city/nest_corps
-	name = "Nest Corporation Room"
-
-/area/city/nest_corps_main
-	name = "Nest Corporation Main Room"
-
 //Miscellaneous Areas
 /area/shelter
 	name = "Shelter"
