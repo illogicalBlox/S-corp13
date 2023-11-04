@@ -7,6 +7,34 @@
 	icon_state = "darktile"
 	floor_tile = /obj/item/stack/tile/plasteel
 
+/turf/open/floor/facility/asphalt
+	icon_state = "asphalt"
+	floor_tile = /obj/item/stack/tile/plasteel
+
+/turf/open/floor/facility/asphaltmiddle
+	icon_state = "asphaltmiddle"
+	floor_tile = /obj/item/stack/tile/plasteel
+
+/turf/open/floor/facility/asphalt2
+	icon_state = "asphalt2"
+	floor_tile = /obj/item/stack/tile/plasteel
+
+/turf/open/floor/facility/asphaltend
+	icon_state = "asphaltend"
+	floor_tile = /obj/item/stack/tile/plasteel
+
+/turf/open/floor/facility/wood
+	icon_state = "wood"
+	floor_tile = /obj/item/stack/tile/plasteel
+
+/turf/open/floor/facility/elitewood
+	icon_state = "elitewood"
+	floor_tile = /obj/item/stack/tile/plasteel
+
+/turf/open/floor/facility/pedestrialwalk
+	icon_state = "pedestrialwalk"
+	floor_tile = /obj/item/stack/tile/plasteel
+
 /turf/open/floor/facility/white
 	icon_state = "whitetile"
 	floor_tile = /obj/item/stack/tile/plasteel
